@@ -84,7 +84,7 @@ public class GridTool : Node
     /// </summary>
     public override void _Ready()
     {
-        GD.Print("custom/dev: " + ProjectSettings.GetSetting("custom/dev"));
+        GD.Print("custom/dev: " + ProjectSettings.GetSetting("custom/main_scene"));
         GD.Print("get: " + this.GetTree().Root.Name);
     }
 

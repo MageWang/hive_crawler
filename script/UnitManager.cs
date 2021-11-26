@@ -1,4 +1,4 @@
-// <copyright file="Singleton.cs" company="MageWang">
+// <copyright file="UnitManager.cs" company="MageWang">
 // Copyright (c) MageWang. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
@@ -6,9 +6,9 @@ using System;
 using Godot;
 
 /// <summary>
-/// Singleton.
+/// UnitManager.
 /// </summary>
-public class Singleton : Node
+public class UnitManager : Node
 {
     // Declare member variables here. Examples:
     // private int a = 2;
@@ -19,17 +19,10 @@ public class Singleton : Node
     /// </summary>
     public override void _Ready()
     {
-        GD.Print("Singleton");
+        GD.Print("UnitManager");
     }
 
-    /// <summary>
-    /// Hello.
-    /// </summary>
-    public void Hello()
-    {
-    }
-
-// Called every frame. 'delta' is the elapsed time since the previous frame.
+// // Called every frame. 'delta' is the elapsed time since the previous frame.
 // public override void _Process(float delta)
 // {
 // }

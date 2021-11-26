@@ -38,6 +38,10 @@ Singleton="*res://scene/Singleton.tscn"
 dev=true
 main_scene=PoolStringArray( "Game" )
 
+[mono]
+
+debugger_agent/wait_timeout=10000
+
 [physics]
 
 common/enable_pause_aware_picking=true
