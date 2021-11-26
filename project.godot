@@ -8,10 +8,35 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "StateMachine",
+"class": "State",
+"language": "GDScript",
+"path": "res://script/State.gd"
+}, {
+"base": "Node",
+"class": "StateMachine",
+"language": "GDScript",
+"path": "res://script/StateMachine.gd"
+} ]
+_global_script_class_icons={
+"State": "",
+"StateMachine": ""
+}
+
 [application]
 
 config/name="hive_crawler"
 config/icon="res://icon.png"
+
+[autoload]
+
+Singleton="*res://scene/Singleton.tscn"
+
+[custom]
+
+dev=true
+main_scene=PoolStringArray( "Game" )
 
 [physics]
 
